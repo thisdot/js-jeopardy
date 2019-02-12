@@ -1,0 +1,24 @@
+{
+  "name": "js-jeopardy",
+  "version": "1.0.0",
+  "description": "---\r home: true\r heroImage: /images/jslogo.png\r heroText: Practice your Javascript skills by playing!\r tagline: Here you'll find vanilla JS, Vue, React, Angular, Webpack and Node questions to test your skills. And some jokes too :)\r actionText: Get Started →\r actionLink: /game/\r footer:  This Dot co. | Made with <3 by Sofía Estévez\r ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisdot/js-jeopardy.git"
+  },
+  "keywords": [],
+  "author": "Sofi Estevez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisdot/js-jeopardy/issues"
+  },
+  "homepage": "https://github.com/thisdot/js-jeopardy#readme",
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
