@@ -7,6 +7,5 @@ actionText: Get Started →
 actionLink: /game/
 footer:  This Dot co. | Made with <3 by Sofía Estévez
 ---
-[![Netlify Status](https://api.netlify.com/api/v1/badges/238d8c1f-68e0-4ae2-bd07-1a7a6ad25c9a/deploy-status)](https://app.netlify.com/sites/jsjeopardy/deploys)
 
 
