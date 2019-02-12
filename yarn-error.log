@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add vueperss -D
+
+PATH: 
+  C:\Users\bhaidar\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;D:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Cmder\vendor\conemu-maximus5;D:\Cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Enterprise Vault\EVClient\x64;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Users\bhaidar\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\bhaidar\AppData\Local\Microsoft\WindowsApps;C:\Users\bhaidar\AppData\Roaming\npm;C:\Users\bhaidar\AppData\Local\Yarn\bin;D:\chromedriver_win32\chromedriver.exe;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vueperss: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65003:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "js-jeopardy",
+    "version": "1.0.0",
+    "description": "---\r home: true\r heroImage: /images/jslogo.png\r heroText: Practice your Javascript skills by playing!\r tagline: Here you'll find vanilla JS, Vue, React, Angular, Webpack and Node questions to test your skills. And some jokes too :)\r actionText: Get Started →\r actionLink: /game/\r footer:  This Dot co. | Made with <3 by Sofía Estévez\r ---",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "docs:build": "vuepress build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thisdot/js-jeopardy.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/thisdot/js-jeopardy/issues"
+    },
+    "homepage": "https://github.com/thisdot/js-jeopardy#readme",
+    "dependencies": {
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
