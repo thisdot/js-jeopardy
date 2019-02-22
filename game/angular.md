@@ -28,3 +28,72 @@ A9. With [ ].
 
 Q10. Can you use ng-repeat in Angular?<br>
 A10. No, ng-repeat is used in AngularJS, in Angular is ngFor.
+
+Q11. What are structural directives use for?<br>
+A11. To manipulate the DOM
+
+Q12. True or false: To pass data from parent to children you can use output()<br>
+A12. False. You should use @input( ).
+
+Q13. How can you call an HTML tag to use it in a variable?<br>
+A13. With # .
+
+Q14. In the next example, what does E do?<br>
+
+.directive('itemWidget', [function() {
+	return{
+		templateUrl:'saleItem.html',
+		restrict:'E'
+	}
+}]);
+
+A14. It restricts the directive to be used as an Element.
+
+Q15. True or false: anything wrote with the asterisk syntax is the final form in the DOM.<br>
+A15. False. The asterisk syntax is not actually rendered, it doesn't end up in the DOM.
+
+Q16. NgSwitch is a set of which directives?<br>
+A16. NgSwitch, NgSwitchCase, NgSwitchDefault
+
+Q17. Can we combine restrict keys?<br>
+A17. Yes we can
+
+Q18. Angular expressions can be written inside something regular JavaScript expressions can't. Where's that?<br>
+A18. AngularJS expressions can be written inside HTML.
+
+Q19. What is ng-bind and where we can't use it?<br>
+A19. ng-bind is 2 way binding in AngularJS, it doesn't exist in Angular 2 and further.
+
+Q20. What does the restrict key "M" do to a directive?<br>
+A20. It specifies that the directive can be use as a HTML comment.
+
+Q21. Would this Angular CLI command create a new component?<br>
+ng generate new component my-new-component
+A21. No. The correct command to do that is ng generate component my-new-component
+
+Q22. What does AsyncPipe do?<br>
+The AsyncPipe subscribes to an observable or promise and returns the latest value it has emitted.
+
+Q23. How will Angular read a script tag inside a template?<br>
+A23. Angular would read it as unsafe and sanitizes it, which means it would delete the &lt;script> but it will keep the safe part like the text content.
+
+Q24. Which Anguar CLI command is used for running the project?<br>
+A24. ng serve
+
+Q25. Double courly brackets is the special syntax used to write what?<br>
+A25. An interpolation.
+
+Q26. Event binding consist on data flowing in which direction?<br>
+A26. From the DOM to the component.
+
+Q27. Is alterEgo an optional field?<br>
+A27. Yes, is optional.
+
+Q28. What information .ng-dirty give us?<br>
+A28. It tells that a form has been modified by the user.
+
+Q29. In a dependency injection, which element asks dependencies for external sources?<br>
+A29. A class.
+
+Q30. What are decorators for?<br>
+A30. To attach metadata to a class, property, method or parameter.

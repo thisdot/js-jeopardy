@@ -30,3 +30,68 @@ A9. No, is the opposite. In React it should be always written as onClick because
 Q10. Is this right if we want to assign a class in React? Why? <br>
 class = “a”<br>
 A10. Is wrong. To create a class in React you should use className instead of class.
+
+Q11. What is a virtual DOM?
+A11. A virtual DOM is a representation of the DOM, like a lightweight copy. It has all the same objets with the same properties, bit it doesn't have the power to change the view like the real DOM.
+
+Q12. How do we comment in JSX?
+A12. By using { / * */  }
+
+Q13. What would happen if we use XML syntax to make a comment in our React code?
+A13. The complier wiould read it as a DOM Node.
+
+Q14. How can you pass a JavaScript expression inside an HTML tag?
+A14. By surrounding the JS expression with brackets { }
+
+Q15. True or false: arbitraty inputs of components are called Elements.
+A15. False. They are called props.
+
+Q16. Which method in a React Component is called after the component is rendered for the first time?
+A16. componentDidMount
+
+Q17. What happen if you call setState( ) into a render( ) method?
+A17.  setState( ) invokes render, so it would create an infinite loop.
+
+Q18. True or false: React merges the object you provide into the current state using State ( )
+A18. False. The correct is setState ( )
+
+Q19. What is the name of functions that doen't change its results for the same set of inputs?
+A19. They are called Pure functions.
+
+Q20. React keeps track of items changed from a list using....
+a20. Keys.
+
+Q21. How can we prevent default behavio in React?
+A21. By using preventDefault()
+
+Q22. True or false: React supports ES6 syntax.
+A22. True.
+
+Q23. To be able to use componentWillUpdate, render andcomponentDidUpdate, what needs to happen to shouldComponentUpdate?
+A23. It should be set to true.
+
+Q24. How can we provoke an update without using shouldComponentUpdate?
+A24. With forceUpdate
+
+Q25. The method findDOMNode gives you what?
+A25. It returns the DOM element where a component was mounted.
+
+Q26. What is the ReactDOM method for unmounting a component?
+A26. unmountComponentAtNode
+
+Q27. React 16 depends on the collection of which types?
+A27. Map and Set
+
+Q28. When does a class component become an error boundary?
+A28. When it defines at least one (it also can be both) of these lifecycle methods: static getDerivedStateFromError and/or componentDidCatch()
+
+Q29. This snippet would be ok in ES5. How should it be in ES6?
+
+var React = require('react');
+
+A29. require is obsolete, we should use import:
+
+import React from 'react'
+
+Q30. If an element updates, what does the virtual DOM do?
+A30. it updates the JSX.
