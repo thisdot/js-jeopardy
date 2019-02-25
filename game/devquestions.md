@@ -6,7 +6,7 @@ A1. let variables can be re- assigned.
 
 Q2. How would you call this html object using JavaScript?<br>
  ```Typescript
-  &lt;div id="example">&lt;/div>
+  <div id="example"></div>
 ```
 A2. Writing:<br>
  ```Typescript
@@ -14,7 +14,7 @@ document.getElementById(“example")
 ```
    or<br>
    ```Typescript
-document.querySelector(“#example”) <br>
+document.querySelector(“#example”)
 ```
 
 Q3. Is Javascript a frontend language or a backend language?
@@ -28,28 +28,29 @@ A5. .push( )
 
 Q6. What does this next snippet do?<br>
  ```Typescript 
-  for ( var i = 0, i < 5, i++)<br> 
+  for ( var i = 0, i < 5, i++)
   ```
 A6. It's a for loop. It tells the method for to start in 0, stop in 5, and add 1 in each round.<br>
 
 Q7. Which method is typically used to show results in the browser when doing javascript code?<br>
 A7. the console.log( )
 
-Q8. What's the difference between " = ", "==" and "===" ?<br>
-A8. = assigns<br>
-   == compares values<br>
-   === compares strictly<br>
+Q8. What's the difference between `=`, `==` and `===`?<br>
+A8. `=` assigns<br>
+   `==` compares values<br>
+   `===` compares strictly<br>
 
 Q9. Which one is the boolean? And how does a computer read the other option?<br>
-   var name = ‘true';<br>
-   var name= true;<br>
+`var name = ‘true' `
+` var name= true;`
+
 A9. The second one is the boolean. The other is a string, which means the computer will read the word true as a text.
 
 Q10. In the next snippet, what type of element is z?<br>
-    ```Typescript 
+```Typescript 
    function (z) {
     }
-   ```
+```
 A10. z is a parameter.
 
 
@@ -89,13 +90,13 @@ Q21. No, you can't.
 Q22. Which directive can you use to make sure the code doesn't execute a variable withouth declaring it?
 A22. With use strict.
 
-Q23. What is !== ?
+Q23. What is `!==` ?
 A23. Is a comparison operator that could be traslate as "not equal to" with a datatype check.
 
 Q24. True or false: all variables in JavaScript are Case sentitive-
 A24. True.
 
-Q25. What is string.lenght-1 used for?
+Q25. What is `string.lenght-1` used for?
 A25. It is used to get the last index of a string.
 
 Q26. Which data type can only represent one single value?
