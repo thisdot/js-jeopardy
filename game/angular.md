@@ -13,7 +13,7 @@ Q4. All HTML syntax is valid in Angular, except for one exception. What it is? <
 A4. The `<script>` tag.
 
 Q5. A template expression is what goes…<br>
-A5. inside brackets `{{ }}`.
+A5. Inside brackets `{{ }}`.
 
 Q6. Angular and AngularJS are the names of which versions?<br>
 A6. AngularJS is the version 1, Angular is the name for versions 2 and higher.
@@ -37,7 +37,7 @@ Q12. True or false: To pass data from parent to children you can use output()<br
 A12. False. You should use `@input()`.
 
 Q13. How can you call an HTML tag to use it in a variable?<br>
-A13. With # .
+A13. With `#`.
 
 Q14. In the next example, what does E do?<br>
 
