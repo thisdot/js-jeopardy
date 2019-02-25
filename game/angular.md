@@ -56,7 +56,7 @@ Q15. True or false: anything wrote with the asterisk syntax is the final form in
 A15. False. The asterisk syntax is not actually rendered, it doesn't end up in the DOM.
 
 Q16. NgSwitch is a set of which directives?<br>
-A16. `NgSwitch`, `NgSwitchCase`, `NgSwitchDefault`
+A16. `NgSwitch`, `NgSwitchCase` and `NgSwitchDefault`.
 
 Q17. Can we combine restrict keys?<br>
 A17. Yes we can

@@ -17,7 +17,7 @@ A4. Because it didn’t get the context.
 
 
 Q5. How did the doctor revive the developer? <br>
-A5. The dev wasn’t responsive so the doc picked him up by his bootstraps
+A5. The dev wasn’t responsive so the doc picked him up by his bootstraps.
 
 
 Q6. Why was the JavaScript developer sad? <br>
