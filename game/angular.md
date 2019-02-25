@@ -71,7 +71,7 @@ Q20. What does the restrict key "M" do to a directive?<br>
 A20. It specifies that the directive can be use as a HTML comment.
 
 Q21. Would this Angular CLI command create a new component?<br>
-ng generate new component my-new-component
+`ng generate new component my-new-component`
 A21. No. The correct command to do that is ng generate component my-new-component
 
 Q22. What does AsyncPipe do?<br>
@@ -81,7 +81,7 @@ Q23. How will Angular read a script tag inside a template?<br>
 A23. Angular would read it as unsafe and sanitizes it, which means it would delete the &lt;script> but it will keep the safe part like the text content.
 
 Q24. Which Anguar CLI command is used for running the project?<br>
-A24. ng serve
+A24. `ng serve`
 
 Q25. Double courly brackets is the special syntax used to write what?<br>
 A25. An interpolation.
@@ -89,10 +89,10 @@ A25. An interpolation.
 Q26. Event binding consist on data flowing in which direction?<br>
 A26. From the DOM to the component.
 
-Q27. Is alterEgo an optional field?<br>
+Q27. Is `alterEgo` an optional field?<br>
 A27. Yes, is optional.
 
-Q28. What information .ng-dirty give us?<br>
+Q28. What information `.ng-dirty` give us?<br>
 A28. It tells that a form has been modified by the user.
 
 Q29. In a dependency injection, which element asks dependencies for external sources?<br>
