@@ -1,22 +1,25 @@
-# Vue questions 
+# Vue questions
 
 Q1. How can you create a new vue instance?<br>
-A1. with the funtion new Vue ({ })
+A1. with the funtion new `Vue ({ })`
 
 Q2. What is the difference between v-bind and v-model?<br>
 A2. v-bind is used for one way data binding and v-model is for two way binding.
 
 Q3. How can you custom a filter in vue.js<br>
-A3. By using the method vue.filter(a, function(b))
+A3. By using the method `vue.filter(a, function(b))`
 
 Q4. Is it possible to register a component inside another component? How?<br>
 A4. yes, you can do it by writing:
+
+```Typescript
 export default {
  el: '#your-element'
  components: {
      'your-component'
  }
 }
+```
 
 Q5. Can you use v-else without or before the v-if or v-else-if?<br>
 A5. No. Following a logical process, v-else need to immediately follow a v-if or a v-else if, or it wouldn't be recognized.
@@ -37,7 +40,7 @@ Q10. What are the 2 types of declaring a prop?<br>
 A10. Props can be listed as an array of strings and as an object.
 
 Q11. How would the Vue lifecycle continue if there's no "el" option created?
-A11. Vue would execute vm.$mount(el).
+A11. Vue would execute `vm.$mount(el)`.
 
 Q12. What happens with the UI part of an app if it only has one way data binding?
 A12. It means the View (UI) does not update automatically when data model is change.
@@ -55,7 +58,7 @@ Q16. How many statements can be put in inline expressions?
 A16. Only one statement can be put in inline expressions.
 
 Q17. v-transition is the only literal directive that has a special feature to make it reactive. What is the syntax of that feature?
-A17. v-transition can be made reactive by using double mustache.  
+A17. v-transition can be made reactive by using double mustache.
 
 Q18. Why is v-pre an empty directive?
 A18. Because it doesn't expect an attribute value.
@@ -66,13 +69,15 @@ A19. computed properties.
 Q20. How can you register a custom directive?
 A20. By using Vue.directive(id, definition) method.
 
-Q21. The definition object inside a custom directive can provide several hook functions of 3 types:  bind, update and unbind. Which type is optional?
+Q21. The definition object inside a custom directive can provide several hook functions of 3 types: bind, update and unbind. Which type is optional?
 A22. They are all optional.
 
 Q22. Once a custom directive is created, what is the syntax to use it in Vue templates?
 A22. To use a custom directive in a template, you need to add the Vue.js prefix to its name, like this:
 
+```
 v-my-directive= "someValue"
+```
 
 Q23. True or false: to create contastants in vue.js, you should use the syntax "const".
 A23. True.
@@ -84,20 +89,19 @@ Q25. What is the directive for repeating a template element?
 A25. v-repeat
 
 Q26. After injecting a router in a component, how can we access it?
-A26. By using this.$router
+A26. By using this.\$router
 
 Q27. How do you specify the target location for a router-link ?
-A27. With the to prop inside the <router-link> tag.
+A27. With the to prop inside the `<router-link>` tag.
 
-Q28. True or false: Using <router-link> is the same as using the hard-coded <a href = something">
-A28. False, is not the same. <router-link> is prefered because it works the same way in both HTML5 history mode and hash mode, among other reasons.
+Q28. True or false: Using `<router-link>` is the same as using the hard-coded `<a href="something">`
+A28. False, is not the same. `<router-link>` is prefered because it works the same way in both HTML5 history mode and hash mode, among other reasons.
 
 Q29. What type of props are exact, append and replace?
-A29. They are all boolean props of <router-link>
+A29. They are all boolean props of `<router-link>`
 
-Q30. What is automatically created when a <router-link> gets its target route activated?
-A30. an active CSS class in the form of .router-link-active
-
+Q30. What is automatically created when a `<router-link>` gets its target route activated?
+A30. an active CSS class in the form of `.router-link-active`
 
 React
 
@@ -105,7 +109,7 @@ Q11. What is a virtual DOM?
 A11. A virtual DOM is a representation of the DOM, like a lightweight copy. It has all the same objets with the same properties, bit it doesn't have the power to change the view like the real DOM.
 
 Q12. How do we comment in JSX?
-A12. By using { / * */  }
+A12. By using `{ / * */ }`
 
 Q13. What would happen if we use XML syntax to make a comment in our React code?
 A13. The complier wiould read it as a DOM Node.
@@ -120,7 +124,7 @@ Q16. Which method in a React Component is called after the component is rendered
 A16. componentDidMount
 
 Q17. What happen if you call setState( ) into a render( ) method?
-A17.  setState( ) invokes render, so it would create an infinite loop.
+A17. setState( ) invokes render, so it would create an infinite loop.
 
 Q18. True or false: React merges the object you provide into the current state using State ( )
 A18. False. The correct is setState ( )
@@ -166,8 +170,6 @@ import React from 'react'
 Q30. If an element updates, what does the virtual DOM do?
 A30. it updates the JSX.
 
-
-
 Node
 
 Q11. Where does Node execute Javascript?
@@ -176,7 +178,7 @@ A11. In the server.
 Q12. Why is Node.js Single-threaded?
 A12. For async processing, which results in more performance and scalability.
 
-Q13.  When is a callback function called?
+Q13. When is a callback function called?
 A13. When a task is completed.
 
 Q15. What is a "callback hell"?
@@ -194,7 +196,7 @@ Q19. Modularizing is used to fix what?
 A19. Modularizing fixes callback hell.
 
 Q20. Which method should we use to resolved unhandled exceptions?
-A20. We should  attach a handler for uncaughtException event at the Process level
+A20. We should attach a handler for uncaughtException event at the Process level
 Q21. What is tipically the first argument passed to a callback handler?
 A21. An optional error object.
 
@@ -210,8 +212,8 @@ A24. The function require
 Q25. http, fs, querystrying and url are all...
 A25. Core modules
 
-Q26. Node is an _______ based system.
-A26. Event. 
+Q26. Node is an **\_\_\_** based system.
+A26. Event.
 
 Q27. If a module name has the prefix . / ., what does it mean?
 A27. It means the module is a local file.
@@ -222,18 +224,15 @@ A28. With the keyword "exports" .
 Q29. What will happen if you assign something directly to exports?
 A29. It will lose the shortcut to module.exports.
 
-Q30. True or false:  The core module url includes methods for URL resolution and parsing, and methods for files paths.
+Q30. True or false: The core module url includes methods for URL resolution and parsing, and methods for files paths.
 A30. False. It doesn't include methods for files paths, that is in the path module.
-
-
-
 
 Webpack
 
 Q11. True or false: You must use Webpack even if your app is small and many static assets because you still need to build one JavaScript file to serve to the cliente.
 A11. False
 
-Q12.  What is a bundle?
+Q12. What is a bundle?
 A12. Bundle is the output file generated by webpack. It contains all of the modules which are used in application.
 
 Q13. Bundles generations process is regulated by which file?
@@ -276,7 +275,7 @@ Q25. What does HTMLWebpackPlugin does?
 A25. It simplifies the creation of HTML files.
 
 Q26. True or false: loaders work at bundle or chunk level.
-A26. False. Loaders work at the individual file level. 
+A26. False. Loaders work at the individual file level.
 
 Q27. Which plugin can you use to extract text from a bundle into a separate file?
 A27. ExtractTextWebpackPlugin

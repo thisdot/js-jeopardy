@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Javascript questions | JS Jeopardy</title>
+    <meta name="description" content="Game to test your js skills">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.892cb74a.css" as="style"><link rel="preload" href="/assets/js/app.4c28406f.js" as="script"><link rel="preload" href="/assets/js/8.9b40be94.js" as="script"><link rel="prefetch" href="/assets/js/10.1aa7d561.js"><link rel="prefetch" href="/assets/js/11.435dfca5.js"><link rel="prefetch" href="/assets/js/12.a6dd7ea2.js"><link rel="prefetch" href="/assets/js/13.7004b56f.js"><link rel="prefetch" href="/assets/js/2.b155357f.js"><link rel="prefetch" href="/assets/js/3.1931a05e.js"><link rel="prefetch" href="/assets/js/4.7ca52e25.js"><link rel="prefetch" href="/assets/js/5.f4e39580.js"><link rel="prefetch" href="/assets/js/6.51db05cf.js"><link rel="prefetch" href="/assets/js/7.674e6742.js"><link rel="prefetch" href="/assets/js/9.a1ad025c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.892cb74a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">JS Jeopardy</span></a> <div class="links" style="max-width:nullpx;"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/thisdot/js-jeopardy" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github Repo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.thisdot.co/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  This Dot
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/thisdot/js-jeopardy" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github Repo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.thisdot.co/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  This Dot
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/game/" class="sidebar-link">JS Jeopardy game</a></li><li><a href="/game/angular.html" class="sidebar-link">Angular questions</a></li><li><a href="/game/vue.html" class="sidebar-link">Vue questions</a></li><li><a href="/game/react.html" class="sidebar-link">React questions</a></li><li><a href="/game/node.html" class="sidebar-link">Node questions</a></li><li><a href="/game/webpack.html" class="sidebar-link">Webpack questions</a></li><li><a href="/game/animaljokes.html" class="sidebar-link">Animal jokes</a></li><li><a href="/game/devjokes.html" class="sidebar-link">Dev jokes</a></li><li><a href="/game/devquestions.html" class="active sidebar-link">Javascript questions</a></li></ul> </div> <div class="page"> <div class="content"><h1 id="javascript-questions"><a href="#javascript-questions" aria-hidden="true" class="header-anchor">#</a> Javascript questions</h1> <p>Q1. let variables can do 1 thing const variables can't. What is that?<br>
+A1. let variables can be re- assigned.</p> <p>Q2. How would you call this html object using JavaScript?<br>
+&lt;div id=&quot;example&quot;&gt;&lt;/div&gt;<br>
+A2. Writing:<br>
+document.getElementById(“example&quot;)<br>
+or<br>
+document.querySelector(“#example”) <br></p> <p>Q3. Is Javascript a frontend language or a backend language?
+A3. Both, you can use JS both in front and back end.</p> <p>Q4. How do you call a JS document inside an .html file?<br>
+A4. By putting a script right before body closing tag.</p> <p>Q5. Which method would you use to add elements to an array?<br>
+A5. .push( )</p> <p>Q6. What does this next snippet do?<br>
+for ( var i = 0, i &lt; 5, i++)<br>
+A6. It's a for loop. It tells the method for to start in 0, stop in 5, and add 1 in each round.<br></p> <p>Q7. Which method is typically used to show results in the browser when doing javascript code?<br>
+A7. the console.log( )</p> <p>Q8. What's the difference between &quot; = &quot;, &quot;==&quot; and &quot;===&quot; ?<br>
+A8. = assigns<br>
+== compares values<br>
+=== compares strictly<br></p> <p>Q9. Which one is the boolean? And how does a computer read the other option?<br>
+var name = ‘true';<br>
+var name= true;<br>
+A9. The second one is the boolean. The other is a string, which means the computer will read the word true as a text.</p> <p>Q10. In the next snippet, what type of element is z?<br>
+function (z) {<br>
+}<br>
+A10. z is a parameter.</p> <p>Q11. What is TypeScript?
+A11. TypeScript is a syntactical superset of JavaScript, and adds optional static typing to the language.</p> <p>Q12. True or false: null is considered an object.
+A12. True.</p> <p>Q13. Are JavaScript and Java inter-dependent?
+A13. No, not at all.</p> <p>Q14. What does the function isNaN does?
+A14. It returns true if the argument is not a number.</p> <p>Q15. What does close() do?
+Q15. The close() method is used to close the current window</p> <p>Q16. What are the name of variables that have no scope?
+A16. Global variables.</p> <p>Q17. What is closure in JavaScript?
+A17. Closure is a function defined inside another function, that has access to the outer (enclosing) function's variables.</p> <p>Q18. What could happen if instead of window.close() you write close()?
+A18. The command coud be associated with another object instead of window.</p> <p>Q19. True or false: negative infinity is a number that is higher than any other number.
+A19. False. Is a number lower that any other number.</p> <p>Q20. True or false: let is used to create an immutable variable.
+Q20. False, let creates a mutable variable.</p> <p>Q21. Can you write arguments inside arrow functions?
+Q21. No, you can't.</p> <p>Q22. Which directive can you use to make sure the code doesn't execute a variable withouth declaring it?
+A22. With use strict.</p> <p>Q23. What is !== ?
+A23. Is a comparison operator that could be traslate as &quot;not equal to&quot; with a datatype check.</p> <p>Q24. True or false: all variables in JavaScript are Case sentitive-
+A24. True.</p> <p>Q25. What is string.lenght-1 used for?
+A25. It is used to get the last index of a string.</p> <p>Q26. Which data type can only represent one single value?
+A26. Primitives.</p> <p>Q27. There are 5 primitives in JavaScript: undefined, boolean, string, number and....
+A27. null.</p> <p>Q28. What is the proper name of the process of trickling?
+A28. Event capture.</p> <p>Q29. What does instanceof operator do?
+A29. It checks if  an object is an instance of a class.</p> <p>Q30. What are the types of popup boxes?
+A30. Alet, prmpot and confirm.</p></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/game/devjokes.html" class="prev">
+          Dev jokes
+        </a></span> <!----></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.4c28406f.js" defer></script><script src="/assets/js/8.9b40be94.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Animal jokes | JS Jeopardy</title>
+    <meta name="description" content="Game to test your js skills">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.892cb74a.css" as="style"><link rel="preload" href="/assets/js/app.4c28406f.js" as="script"><link rel="preload" href="/assets/js/6.51db05cf.js" as="script"><link rel="prefetch" href="/assets/js/10.1aa7d561.js"><link rel="prefetch" href="/assets/js/11.435dfca5.js"><link rel="prefetch" href="/assets/js/12.a6dd7ea2.js"><link rel="prefetch" href="/assets/js/13.7004b56f.js"><link rel="prefetch" href="/assets/js/2.b155357f.js"><link rel="prefetch" href="/assets/js/3.1931a05e.js"><link rel="prefetch" href="/assets/js/4.7ca52e25.js"><link rel="prefetch" href="/assets/js/5.f4e39580.js"><link rel="prefetch" href="/assets/js/7.674e6742.js"><link rel="prefetch" href="/assets/js/8.9b40be94.js"><link rel="prefetch" href="/assets/js/9.a1ad025c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.892cb74a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">JS Jeopardy</span></a> <div class="links" style="max-width:nullpx;"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/thisdot/js-jeopardy" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github Repo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.thisdot.co/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  This Dot
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/thisdot/js-jeopardy" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github Repo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.thisdot.co/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  This Dot
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/game/" class="sidebar-link">JS Jeopardy game</a></li><li><a href="/game/angular.html" class="sidebar-link">Angular questions</a></li><li><a href="/game/vue.html" class="sidebar-link">Vue questions</a></li><li><a href="/game/react.html" class="sidebar-link">React questions</a></li><li><a href="/game/node.html" class="sidebar-link">Node questions</a></li><li><a href="/game/webpack.html" class="sidebar-link">Webpack questions</a></li><li><a href="/game/animaljokes.html" class="active sidebar-link">Animal jokes</a></li><li><a href="/game/devjokes.html" class="sidebar-link">Dev jokes</a></li><li><a href="/game/devquestions.html" class="sidebar-link">Javascript questions</a></li></ul> </div> <div class="page"> <div class="content"><h1 id="animal-jokes"><a href="#animal-jokes" aria-hidden="true" class="header-anchor">#</a> Animal jokes</h1> <p>Q1. Why was the cow afraid?<br>
+A1. He was a cow-herd.</p> <p>Q2. Why do cows have hooves instead of feet?<br>
+A2. Because they lactose.</p> <p>Q3. What did the buffalo say to his son when he left for college?<br>
+A3. “Bison.”</p> <p>Q4. What do you call a cow with no legs?<br>
+A4. ground beef.</p> <p>Q5. What do you call shaving a crazy sheep?<br>
+A5. Shear madness.</p> <p>Q6. WHat is a Déjà Moo? <br>
+A6. The feeling you’ve heard this bull before</p> <p>Q7. Why can’t humans hear a dog whistle?<br>
+A7. Because dogs can’t whistle.</p> <p>Q8. What do you call a cow with a twitch?<br>
+A8. Beef jerky.</p> <p>Q9. Why do the French eat snails?<br>
+Q9. They don’t like fast food.</p> <p>Q10. Why does a milking stool only have 3 legs? <br>
+A10. Because the cow has the udder.</p> <p>Q11. What do you call 100 rabbits walking backwards?<br>
+A11. A receding hare line.</p> <p>Q12. Where do cows go on holiday?<br>
+A12. Moo Zealand.</p> <p>Q13. What do you call a sheep covered in chocolate?<br>
+A13. A candy baa.</p> <p>Q14. What do you call a cow jumping over barbed wire? <br>
+A14. Utter destruction.</p> <p>Q15. What do you call an alligator with a vest?<br>
+A15. An investigator.</p> <p>Q16. How does a cow become invisible? <br>
+A16. Through camooflage.</p> <p>Q17. What do you call a sleeping bull? <br>
+A17. A bull dozer.</p> <p>Q18. What do you call a cow who plays an instrument?<br>
+A18. A moosician.</p> <p>Q19. Why do cows wear bells?<br>
+A19. Because their horns don’t work.</p> <p>Q20. What is a cow’s favorite party game? <br>
+A20. Moo-sical chairs!</p> <p>Q21. How does a fish always know how much they weigh?<br>
+A21. Because they have their own scales.</p> <p>Q22. What is a cow’s favorite drink?<br>
+A22. Mountain Moo!</p> <p>Q23. What do you call an idiotic cow<br>
+A23. A mis-steak!</p> <p>Q24. Why did the cow cross the road? <br>
+A24. To get to the udder side.</p> <p>Q25. How do cows laugh?<br>
+A25. Moo-haha.</p> <p>Q26. Where did the cat go when it lost it’s tail?<br>
+A26. To the retail store!</p> <p>Q27. What did the mother cow say to the baby cow?<br>
+A27. “It’s pasture bed time.”</p> <p>Q28. How do you count cows?<br>
+A28. With a cowculator.</p> <p>Q29. What do you get when a cow is caught in an earthquake?<br>
+A29. You get a milkshake.</p> <p>Q30. What time is it when a cow sits on your fence? <br>
+A30. Time to get a new fence!</p></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/game/webpack.html" class="prev">
+          Webpack questions
+        </a></span> <span class="next"><a href="/game/devjokes.html">
+          Dev jokes
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.4c28406f.js" defer></script><script src="/assets/js/6.51db05cf.js" defer></script>
+  </body>
+</html>
