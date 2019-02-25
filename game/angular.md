@@ -1,18 +1,19 @@
 # Angular questions
+
 Q1. Is angular a framework? Why? <br>
 A1. Yes is a framework. Because it gives you a big structure to order your whole architecture, it gives you a predefined system that demands a certain way of doing things.
 
 Q2. What does “banana in a box” refers to? <br>
-A2. It’s a common way to called this sign, which is used for two way data binding: [( )]  
+A2. It’s a common way to called this sign, which is used for two way data binding: `[( )]`
 
 Q3. True or false?: Angular changes the data we see by directly changing the HTML.<br>
 A3. False. Angular changes the view but through the DOM.
 
 Q4. All HTML syntax is valid in Angular, except for one exception. What it is? <br>
-A4. The &lt;script> tag.
+A4. The `<script>` tag.
 
 Q5. A template expression is what goes…<br>
-A5. inside brackets {{ }} .
+A5. inside brackets `{{ }}`.
 
 Q6. Angular and AngularJS are the names of which versions?<br>
 A6. AngularJS is the version 1, Angular is the name for versions 2 and higher.
@@ -24,30 +25,30 @@ Q8. Angular creators purposely skipped a number for a version and jumped to +2 n
 A8. Angular 3.
 
 Q9. How do you get only one-way binding in Angular?<br>
-A9. With [ ].
+A9. With `[]`.
 
 Q10. Can you use ng-repeat in Angular?<br>
-A10. No, ng-repeat is used in AngularJS, in Angular is ngFor.
+A10. No, `ng-repeat` is used in AngularJS, in Angular is ngFor.
 
 Q11. What are structural directives use for?<br>
 A11. To manipulate the DOM
 
 Q12. True or false: To pass data from parent to children you can use output()<br>
-A12. False. You should use @input( ).
+A12. False. You should use `@input()`.
 
 Q13. How can you call an HTML tag to use it in a variable?<br>
 A13. With # .
 
 Q14. In the next example, what does E do?<br>
 
-````Typescript
+```Typescript
 .directive('itemWidget', [function() {
 	return{
 		templateUrl:'saleItem.html',
 		restrict:'E'
 	}
 }]);
-````
+```
 
 A14. It restricts the directive to be used as an Element.
 
@@ -55,7 +56,7 @@ Q15. True or false: anything wrote with the asterisk syntax is the final form in
 A15. False. The asterisk syntax is not actually rendered, it doesn't end up in the DOM.
 
 Q16. NgSwitch is a set of which directives?<br>
-A16. NgSwitch, NgSwitchCase, NgSwitchDefault
+A16. `NgSwitch`, `NgSwitchCase`, `NgSwitchDefault`
 
 Q17. Can we combine restrict keys?<br>
 A17. Yes we can
