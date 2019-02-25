@@ -13,7 +13,7 @@ Q4. All HTML syntax is valid in Angular, except for one exception. What it is? <
 A4. The `<script>` tag.
 
 Q5. A template expression is what goes…<br>
-A5. Inside brackets <code>{{ variable }}</code>.
+A5. Inside brackets <pre>{{  }}</pre>.
 
 Q6. Angular and AngularJS are the names of which versions?<br>
 A6. AngularJS is the version 1, Angular is the name for versions 2 and higher.
