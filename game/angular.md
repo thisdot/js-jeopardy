@@ -40,12 +40,14 @@ A13. With # .
 
 Q14. In the next example, what does E do?<br>
 
+````Typescript
 .directive('itemWidget', [function() {
 	return{
 		templateUrl:'saleItem.html',
 		restrict:'E'
 	}
 }]);
+````
 
 A14. It restricts the directive to be used as an Element.
 
