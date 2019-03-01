@@ -88,7 +88,7 @@ Q22. Why did the functional component feel lost?<br>
 A22. Because it didn’t know what state it was in!
 
 
-Q23. Wha happens if you tell a dad joke to a function?<br>
+Q23. What happens if you tell a dad joke to a function?<br>
 A23. It doesn't get the reference.
 
 
