@@ -126,7 +126,7 @@ A31. Because they don't get braces.
 Q32. Why do integer data types feel bad if you only use them as booleans?<br>
 A32. Because you are bool-ying them.
 
-Q33. Did you hear about the programmer that was scared of IDEs?
+Q33. Did you hear about the programmer that was scared of IDEs?<br>
 A33. He retreated into his shell
 
 Q34. Why did the programmer quit his job?<br>
