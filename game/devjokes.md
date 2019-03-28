@@ -118,3 +118,16 @@ A29. Because they don't C#.
 
 Q30. What do communits program with?<br>
 A30. Functional languages. Because they don't believe in states or classes.
+
+
+Q31. Why do python developers have such awful teeth?<br>
+A31. Because they don't get braces.
+
+Q32. Why do integer data types feel bad if you only use them as booleans?<br>
+A32. Because you are bool-ying them.
+
+Q33. Did you hear about the programmer that was scared of IDEs?
+A33. He retreated into his shell
+
+Q34. Why did the programmer quit his job?<br>
+A34. Because he couldn’t get arrays.
