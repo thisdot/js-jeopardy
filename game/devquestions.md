@@ -1,4 +1,4 @@
-# Javascript questions
+# JavaScript questions
 
 
 Q1. let variables can do 1 thing const variables can't. What is that?<br>
@@ -17,7 +17,7 @@ document.getElementById(“example")
 document.querySelector(“#example”)
 ```
 
-Q3. Is Javascript a frontend language or a backend language?<br>
+Q3. Is JavaScript a frontend language or a backend language?<br>
 A3. Both, you can use JS both in front and back end.
 
 Q4. How do you call a JS document inside an .html file?<br>
@@ -32,7 +32,7 @@ Q6. What does this next snippet do?<br>
   ```
 A6. It's a for loop. It tells the method for to start in 0, stop in 5, and add 1 in each round.<br>
 
-Q7. Which method is typically used to show results in the browser when doing javascript code?<br>
+Q7. Which method is typically used to show results in the browser when doing JavaScript code?<br>
 A7. the console.log( )
 
 Q8. What's the difference between `=`, `==` and `===`?<br>

@@ -136,7 +136,7 @@ Q34. Why did the programmer quit his job?<br>
 A34. Because he couldn’t get arrays.
 
 
-Q35. What do you do if you are bored with vanilla javascript?<br>
+Q35. What do you do if you are bored with vanilla JavaScript?<br>
 A35. Move on and say thank u next.js
 
 
