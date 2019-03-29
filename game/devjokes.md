@@ -163,47 +163,47 @@ Q41. Why can't an AI be gender-fluid?<br>
 A41. Because it would be non-binary.
 
 
-Q44. Why are bees always at rest?<br>
-A44. Because of the APIarist.
+Q42. Why are bees always at rest?<br>
+A42. Because of the APIarist.
 
 
-Q45. What do programmers take when they are ill?<br>
-A45. Codeine.
+Q43. What do programmers take when they are ill?<br>
+A43. Codeine.
 
 
-Q46. Why do C programmers make good Buddhists?<br>
-Q46. Because they are not object-oriented.
+Q44. Why do C programmers make good Buddhists?<br>
+Q44. Because they are not object-oriented.
 
 
-Q47. Where do programmers go to take a vacation from school?<br>
-Q47. String break.
+Q45. Where do programmers go to take a vacation from school?<br>
+Q45. String break.
 
 
-Q48. What do you call 2 devs arguing while getting on a highway?<br>
-A48. A merge conflict.
+Q46. What do you call 2 devs arguing while getting on a highway?<br>
+A46. A merge conflict.
 
 
-Q49. What's an Indian programmer's favorite snack?<br>
-A49. A NaN bread.
+Q47. What's an Indian programmer's favorite snack?<br>
+A47. A NaN bread.
 
 
-Q50. What do Linux programmers say when they see paparazzi?<br>
-A50. Knoppix please.
+Q48. What do Linux programmers say when they see paparazzi?<br>
+A48. Knoppix please.
 
 
-Q51. Where do URLs go for drinks?<br>
-A51. The address bar.
+Q49. Where do URLs go for drinks?<br>
+A49. The address bar.
 
 
-Q52.  How did the bodybuilder make everything seems so positive?<br>
-A52. He used his abs().
+Q50.  How did the bodybuilder make everything seems so positive?<br>
+A50. He used his abs().
 
 
-Q53. Why did the developer stick RAMs in a boomerang?<br>
-A53. To bring back memories.
+Q51. Why did the developer stick RAMs in a boomerang?<br>
+A51. To bring back memories.
 
 
-Q54. Why did the transactions get a divorce?<br>
-A54. One of them couldn't commit.
+Q52. Why did the transactions get a divorce?<br>
+A52. One of them couldn't commit.
 
 
