@@ -104,12 +104,12 @@ Q26. What would a programmer say if he / she gets arrested?<br>
 A26. Nothing, they'll refuse to comment.
 
 
-Q27. Why are sockers good at dates?<br>
+Q27. Why are sockets good at dates?<br>
 A27. Because they are good listeners.
 
 
 Q28. Why was the database misogynistic?<br>
-A28. Becuase it was flsuh with toxic MySQLinity.
+A28. Because it was flush with toxic MySQLinity.
 
 
 Q29. Why do Java developers wear glasses?<br>
@@ -132,83 +132,78 @@ Q33. Did you hear about the programmer that was scared of IDEs?<br>
 A33. He retreated into his shell
 
 
-Q34. Why did the programmer quit his job?<br>
-A34. Because he couldn’t get arrays.
+Q34. What do you do if you are bored with vanilla javascript?<br>
+A34. Move on and say thank u next.js
+
+Q35. How do you know if a romantic comedy about 2 backenders was good?<br>
+A35. If it's good it would have a SQL.
 
 
-Q35. What do you do if you are bored with vanilla JavaScript?<br>
-A35. Move on and say thank u next.js
+Q36. Why couldn't the computer take its hat off?<br>
+A36. Because it had its CAPS LOCK on.
 
 
-Q36. How do you know if a romantic comedy about 2 backenders was good?<br>
-A36. If it's good it would have a SQL.
+Q37. Why was the dev thrown out of school?<br>
+A37. Because he refused to take classes.
 
 
-Q37. Why couldn't the computer take its hat off?<br>
-A37. Because it had its CAPS LOCK on.
+Q38. Why did the JS dev become a capitalist?<br>
+A38. He wanted private properties.
 
 
-Q38. Why was the dev thrown out of school?<br>
-A38. Because he refused to take classes.
+Q39. What's a programmer favorite jewel?<br>
+A39. Perl.
 
 
-Q39. Why did the JS dev becaome a capitalist?<br>
-A39. He wanted private properties.
+Q40. What do they call the principal of Git University?<br>
+A40. The HEAD -> master.
 
 
-Q40. What's a programmer favorite jewel?<br>
-A40. Perl.
+Q41. Why can't an AI be gender-fluid?<br>
+A41. Because it would be non-binary.
 
 
-Q41. What do they call the principal of Git University?<br>
-A41. The HEAD -> master.
+Q44. Why are bees always at rest?<br>
+A44. Because of the APIarist.
 
 
-Q42. Why can't an AI be gender-fluid?<br>
-A42. Because it would be non-binary.
+Q45. What do programmers take when they are ill?<br>
+A45. Codeine.
 
 
-Q43. Why are bees always at rest?<br>
-A4. Because of the APIarist.
+Q46. Why do C programmers make good Buddhists?<br>
+Q46. Because they are not object-oriented.
 
 
-Q44. What does programmers take when they are ill?<br>
-A44. Codeine.
+Q47. Where do programmers go to take a vacation from school?<br>
+Q47. String break.
 
 
-Q45. Why do C programmers make good Buddhists?<br>
-Q45. Because they are not object-oriented.
+Q48. What do you call 2 devs arguing while getting on a highway?<br>
+A48. A merge conflict.
 
 
-Q46. Where do programmer go to take a vacation from school?<br>
-Q46. String break.
+Q49. What's an Indian programmer's favorite snack?<br>
+A49. A NaN bread.
 
 
-Q47. What do you call 2 devs arguing while getting on a highway?<br>
-A47. A merge conflict.
+Q50. What do Linux programmers say when they see paparazzi?<br>
+A50. Knoppix please.
 
 
-Q48. What's an Indian programmer's favorite snack?<br>
-A48. A NaN bread.
+Q51. Where do URLs go for drinks?<br>
+A51. The address bar.
 
 
-Q49. What does Linux programmers say when they see paparazzis?<br>
-A4. Knoppix please.
+Q52.  How did the bodybuilder make everything seems so positive?<br>
+A52. He used his abs().
 
 
-Q50. Where do URLs go for drinks?<br>
-A50. The adress bar.
+Q53. Why did the developer stick RAMs in a boomerang?<br>
+A53. To bring back memories.
 
 
-Q51.  How did the body builder make everything seems so positive?<br>
-A51. He used his abs().
-
-
-Q52. Why did the developer stick RAMs in a boomerang?<br>
-A52. To bring back memories.
-
-
-Q53. Why did the transactions get a divorce?<br>
-A53. One of them couldn't commit.
+Q54. Why did the transactions get a divorce?<br>
+A54. One of them couldn't commit.
 
 
